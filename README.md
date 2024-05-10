@@ -38,8 +38,6 @@ gdown "https://drive.google.com/uc?id=115RBSjNQ_1zjvKFRsQK2zE8v8BIRrpdy&confirm=
 gdown "https://drive.google.com/uc?id=1rjBn8Fl1E_9d0EMVtL24S9aNQOJAveR5&confirm=t"
 ```
 ```
-# for detection only
-python detect_dual.py --weights 'yolov9-c.pt' --source 'your video.mp4' --device 0
 
 #for detection and tracking
 python detect_dual_tracking.py --weights 'yolov9-c.pt' --source 'your video.mp4' --device 0
@@ -62,11 +60,4 @@ python detect_dual_tracking.py --weights 'yolov9-c.pt' --source 'your video.mp4'
 
 - Output file will be created in the ```working-dir/runs/detect/obj-tracking``` with original filename
 
-
-### Watch the Complete Step by Step Explanation
-
-- Video Tutorial Link  [`YouTube Link`](https://www.youtube.com/watch?v=Jx6oLBfDxRo)
-
-
-[![Watch the Complete Tutorial for the Step by Step Explanation](https://img.youtube.com/vi/Jx6oLBfDxRo/0.jpg)]([https://www.youtube.com/watch?v=Jx6oLBfDxRo](https://www.youtube.com/watch?v=Jx6oLBfDxRo))
 
