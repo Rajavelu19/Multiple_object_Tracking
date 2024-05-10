@@ -1,5 +1,5 @@
 <H1 align="center">
-YOLOv9 Object Detection with DeepSORT Tracking(ID + Trails) </H1>
+YOLOv9 Object Detection and DeepSORT Tracking(ID + Trails) </H1>
 
 
 - Install requirements with mentioned command below.
